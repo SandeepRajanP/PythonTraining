@@ -1,7 +1,29 @@
-def solveMeFirst(a,b):
-    return a + b
+#!/bin/python3
 
-num1 = int(input())
-num2 = int(input())
-res = solveMeFirst(num1,num2)
-print res 
+import os
+import sys
+
+#
+# Complete the simpleArraySum function below.
+#
+def simpleArraySum(ar):
+    #
+    # Write your code here.
+    sum =0
+    for i in ar:
+      sum = sum + i
+    return sum
+    #
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    ar_count = int(input())
+
+    ar = list(map(int, input().rstrip().split()))
+
+    result = simpleArraySum(ar)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
