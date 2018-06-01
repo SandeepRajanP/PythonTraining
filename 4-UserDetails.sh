@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #Current date
-echo `date +%d-%m-%Y`
+echo "Date:"`date +%d-%m-%Y`
 
 #Current time
-echo `date +%H:%M:%S`
+echo "Time:"`date +%H:%M:%S`
 
 #User name
-echo `whoami`
+echo "Username:"`whoami`
 
 #Current working directory
-echo `pwd`
+echo "CurrentDirectory:"`pwd`

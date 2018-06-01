@@ -5,14 +5,14 @@ read X
 read Y
 
 #Addition
-echo $(($X+$Y))
+echo "Sum:" $(($X+$Y))
 
 #Subtraction
-echo $(($X-$Y))
+echo  "Difference:" $(($X-$Y))
 
 #Multiplication
-echo $(($X*$Y))
+echo  "Multiplication:" $(($X*$Y))
 
 #Division
-echo $(($X/$Y))
+echo  "Division:" $(($X/$Y))
 
