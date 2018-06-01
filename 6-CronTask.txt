@@ -1,0 +1,8 @@
+#Crontask for 2AM on weekdays
+0 2 * * 1-5 /home/ec2-user/Assignment/1-HelloQuantiphi.sh
+
+#Crontask for every time in an interval of 3hours between 8AM to  8PM  daily
+0 8-20/3 * * * /home/ec2-user/Assignment/1-HelloQuantiphi.sh
+
+#Crontask for every odd dates of even months at midnight
+0 0 1-31/2 */2 * /home/ec2-user/Assignment/1-HelloQuantiphi.sh
