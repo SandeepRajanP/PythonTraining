@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "The list of prime numbers less than 100:"
 for i in {1..100}
 do
 	count=0
